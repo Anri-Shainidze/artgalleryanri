@@ -33,7 +33,13 @@ button{
 
 }
 
+.arvici{
+    color: white;
+}
 
+.arvicii{
+    color: black;
+}
 .first{
     background-color: rgba(21, 21, 21, 1);
     width: 1482;
@@ -69,7 +75,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .niznaiu{
