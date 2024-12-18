@@ -25,6 +25,13 @@ body{
     margin-top: 2%;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; /* Stack the columns vertically */
+    }
+  }
+
+  
 
 .container5{
     display: flex;
