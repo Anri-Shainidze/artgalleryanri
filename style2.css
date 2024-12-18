@@ -158,7 +158,7 @@ button:hover a {
 
 
 
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
       h1 {
           font-size: 3.4375rem;
           line-height: 3.125rem;
@@ -208,10 +208,10 @@ button:hover a {
       .col-2 {
           width: 17.5625rem;
       }
-  }
+}
 
 
-  @media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 
       h1 {
         font-size: 4.375rem;
@@ -253,4 +253,4 @@ button:hover a {
        .home-link {
         left: 9.75rem;
     }
-  }
+}
