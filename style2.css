@@ -67,9 +67,10 @@ p{
 .second{
     background-color:rgba(213, 150, 108, 1);
     width: 1482;
-    height: 400px;
+    height: 200px;
 
 }
+
 
 .vici{
     display: flex;
@@ -80,4 +81,14 @@ p{
 
 .niznaiu{
     color: black;
+}
+
+button:hover{
+    background-color: rgba(213, 150, 108, 1);
+    color: rgba(213, 150, 108, 1);
+}
+
+.opaopa:hover{
+    background-color:white;
+    color:white;
 }

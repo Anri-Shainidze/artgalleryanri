@@ -101,3 +101,12 @@ footer{
     color:white;
 }
 
+button:hover{
+    border-color: rgba(213, 150, 108, 1);
+    background-color: rgba(213, 150, 108, 1);
+}
+
+.opaopa:hover{
+    background-color: rgba(213, 150, 108, 1);
+    color: rgba(213, 150, 108, 1);
+}
