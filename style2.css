@@ -1,3 +1,9 @@
+body {
+    background-color: var(--background);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300; 
+}
+
 *,
 * ::before,
 * ::after {
@@ -16,10 +22,9 @@
     --background: #FFFFFF;
 }
 
-body {
-    background-color: var(--background);
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300; 
+#map { 
+    height: 34.375rem; 
+    background-image: url(./image/Bitmap.png);
 }
 
 
@@ -60,14 +65,15 @@ i {
     font-size: 1.25rem;
 }
 
+.info {
+    margin-top: 3rem;
+}
+
 main {
     background-color: var(--heading);
     padding: 3rem 1rem 3.5rem 1rem;
 }
 
-.info {
-    margin-top: 3rem;
-}
 
 .ragac h2,
 .addressistvisss {
@@ -100,10 +106,6 @@ i:hover {
 }
 
 
-#map { 
-    height: 34.375rem; 
-    background-image: url(./image/Bitmap.png);
-}
 
 .arrow-l,
 .home-link a{
